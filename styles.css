@@ -28,6 +28,17 @@ body{
     #suscripcion{
     width: 25px !important;
     }
+    
+    .bannerBox{
+        position: relative;
+        width: 100%;
+        height: 35rem !important;
+        background-image: url(./Media/Banner3.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center !important;
+        background-position:left !important;
+  }     
         }
 
 @media (max-width: 1200px){
