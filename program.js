@@ -3,6 +3,8 @@
 
 if(localStorage.getItem('Confirmacion') !== 'Correcto'){
     
+    alert('Los datos ingresados acontinuacion, pueden ser ficticios. Son para mostrar el correcto funcionalmiento del programa')
+
     alert('Bienvenido! Primero debes registrarte')
     let name = prompt('Como es tu nombre y apellido?') 
     let phone = prompt('Un telefono de contacto?') 
