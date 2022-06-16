@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">        <title>In Desing - Home</title>
+    </head>
+
+    <body>
+        
+        
+        <div class="container-fluid m-0 p-0 ">
+
+            <div class="row navBarInicio m-0 p-0 ">
+
+                <div class="col-6 col1 d-flex justify-content-start align-items-center">
+            
+                   
+                    
+                    
+                    <a href="./index.html" style="text-decoration: none;"><h2 class="h2NavBar ">In-Design</h2> </a>
+                    
+                    </div>
+                
+                <div class="col-6 col4 d-flex justify-content-end align-items-center">
+                
+                    <h5 class="user" id="nameUser"></h5>
+
+                    <a href="./index.html"><button class="btn btnNavBar"> <img class="imgMenu " src="./Media/home.png" width="25px" alt=""> </button></a>
+                    <a href="./personal.html"> <button class="btn btnNavBar"> <img class="imgMenu " src="./Media/user.png" width="25px" alt=""> </button></a>
+                    <div class="dropdown">
+                        <button class="btn btnNavBar" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img class="imgMenu" src="./Media/menu.png" width="25px" alt="">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li  id=""><a class="dropdown-item valueProductUno" href="./sillones.html">
+                              
+                            <span >Sillones</span> <br>
+    
+                          </a></li>
+                          <li  id=""><a class="dropdown-item valueProductDos" href="./living.html">
+                              
+                            <span >Comedor</span> <br>
+                            
+                          </a></li>
+                          <li  id=""><a class="dropdown-item valueProductTres" href="./dormitorio.html">
+                              
+                            <span >Dormitorio</span> <br>
+                            
+                        </a></li>
+                          <li  id=""><a class="dropdown-item valueProductCuatro" href="Decoracion.html">
+                              
+                           <span >Decoracion</span> <br>
+                            
+                        </a></li>
+                        </ul>
+                      </div>
+    
+                </div>
+
+            </div>
+        <div class=" row categoriasLiving">
+
+            <div class="col-12" >
+
+                <div class="input-group" style="width: 50% !important; margin: auto;">
+                    <input id="searchbar" type="search" class="form-control" placeholder="Buscar" aria-label="" aria-describedby="basic-addon1" onkeyup="searchBar()" onchange="searchBar()">
+                </div>
+                <a href="./dormitorio.html" style="color: rgba(0, 0, 0, 0.5); text-decoration: none;">Limpiar</a>
+                
+            </div>
+            
+            <div class="cardLiving" id="card">
+                <div>
+                   <img src="" id="cardImageLivingUno" width="80%" alt="">
+                </div> 
+                <div>    
+                    <h3 id="cardTitleLivingUno" class="cardTitles"></h3>
+                </div>
+                <div>    
+                <a href="./compra.html"  id=""><button class="btn btnForm buttonValueOne"   >Comprar...</button> </a>
+                </div>
+            </div>
+            
+            <div class="cardLiving" id="card">
+                <div>
+                    <img src="" id="cardImageLivingDos" width="80%" alt="">
+                </div> 
+                <div>    
+                    <h3 id="cardTitleLivingDos" class="cardTitles"></h3>
+                </div>
+                <div>    
+                    <a href="./compra.html"  id=""><button class="btn btnForm buttonValueDos"  >Comprar...</button></a>
+                </div>
+            </div>
+            
+            <div class="cardLiving" id="card">
+                <div>
+                    <img src="" id="cardImageLivingTres" width="80%" alt="">
+                </div> 
+                <div>    
+                    <h3 id="cardTitleLivingTres" class="cardTitles"></h3>
+                </div>
+                <div>    
+                    <a href="./compra.html"  id=""><button class="btn btnForm buttonValueTres"  >Comprar...</button></a>
+                </div>
+            </div>
+            
+            <div class="cardLiving" id="card">
+                <div>
+                    <img src="" id="cardImageLivingCuatro" width="80%" alt="">
+                </div> 
+                <div>    
+                    <h3 id="cardTitleLivingCuatro" class="cardTitles"></h3>
+                </div>
+                <div>    
+                    <a href="./compra.html"  id=""><button class="btn btnForm buttonValueCuatro"  >Comprar...</button></a>
+                </div>
+            </div>
+            
+            <div class="cardLiving" id="card">
+                <div>
+                    <img src="" id="cardImageLivingCinco" width="80%" alt="">
+                </div> 
+                <div>    
+                    <h3 id="cardTitleLivingCinco" class="cardTitles"></h3>
+                </div>
+                <div>    
+                    <a href="./compra.html"  id=""><button class="btn btnForm buttonValueCinco"  >Comprar...</button></a>
+                </div>
+            </div>
+            
+            <div class="cardLiving" id="card">
+                <div>
+                    <img src="" id="cardImageLivingSeis" width="80%" alt="">
+                </div> 
+                <div>    
+                    <h3 id="cardTitleLivingSeis" class="cardTitles"></h3>
+                </div>
+                <div>    
+                    <a href="./compra.html"  id=""><button class="btn btnForm buttonValueSeis"  >Comprar...</button></a>
+                </div>
+            </div>
+            
+            <div class="cardLiving" id="card">
+                <div>
+                    <img src="" id="cardImageLivingSiete" width="80%" alt="">
+                </div> 
+                <div>    
+                    <h3 id="cardTitleLivingSiete" class="cardTitles"></h3>
+                </div>
+                <div>    
+                    <a href="./compra.html"  id=""><button class="btn btnForm buttonValueSiete"  >Comprar...</button></a>
+                </div>
+            </div>
+            
+            <div class="cardLiving" id="card">
+                <div>
+                    <img src="" id="cardImageLivingOcho" width="80%" alt="">
+                </div> 
+                <div>    
+                    <h3 id="cardTitleLivingOcho" class="cardTitles"></h3>
+                </div>
+                <div>    
+                    <a href="./compra.html"  id=""><button class="btn btnForm buttonValueOcho"  >Comprar...</button></a>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+
+        <div class="row m-0 p-0">
+            <div class="col-12 d-flex justify-content-center mb-5 mt-2">
+                <p>Productos: <span id="productCounter"></span></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./dormitorio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

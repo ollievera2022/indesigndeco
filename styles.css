@@ -1,0 +1,330 @@
+@font-face {
+    font-family: saudagar;
+    src: url(./Media/Saudagar.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(./Media/RobotoSlab-Light.ttf);
+}
+
+body{
+    font-family: roboto !important;
+}
+
+
+@media (max-width: 982px){
+    #h1Banner{
+        background-color: rgba(0, 0, 0, 0)
+    }
+    #nameUser{
+            display: none;    
+    }
+
+    .prodImage{
+        max-width: 75% !important;
+    }
+
+        }
+
+@media (max-width: 1200px){
+       .textNewest{
+        width: 80% !important;
+        margin: auto;
+        padding: 0%;
+        display: inline-flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .textNewestContent{
+        margin-top: 50px;
+        
+    }
+
+    .itemFooter{
+        margin-top: 100px !important;
+    }
+
+}
+        
+.navBarInicio{
+    background-color: #F5EADA;
+    height: 75px;
+    width: 100%;
+    padding: 0% !important;
+}
+
+.form-control:focus {
+    border-color: #bbb2a4 !important;
+    box-shadow: inset 0 1px 1px #bbb2a4, 0 0 8px #bbb2a4 !important;
+  }
+
+  .imgMenu{
+      opacity: 0.5;
+  }
+
+  .bannerBox{
+      position: relative;
+      width: 100%;
+      height: 50rem !important;
+      background-image: url(./Media/Banner3.jpg);
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position: center !important;
+      background-position:left !important;
+}
+
+  h1{
+      margin-top: 5% !important;
+      width: 40% !important;
+      height: 230px;
+      padding-top: 20px;
+      background-color: #b9a27e5b;
+      border-radius: 30px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 100px !important;
+      font-family: saudagar;
+      color: rgba(255, 255, 255, 0.9);
+      text-align: center;
+   
+  }
+
+  .categoriaTitle{
+      width: 100%;
+      height: 50px;
+      background-color: #F7EFE3;
+      color: rgba(0, 0, 0, 0.5);
+  }
+
+  .card-body{
+      color: rgba(0, 0, 0, 0.5)
+  }
+
+  .card{
+      border: none !important;
+      margin-top: 50px;
+      margin-bottom: 50px;
+
+  }
+
+  .card-title{
+      margin-top: 10px;
+  }
+
+  .card-img-top{
+    box-shadow: 4px 5px 12px -3px rgba(0,0,0,0.50);
+    width: 225px !important;
+    text-align: center !important;
+    margin: auto !important;
+    border-radius: 40px;
+    
+  }
+
+
+  .imgNewest{
+      margin: 20px !important;
+  }
+
+  .textNewest a{
+    margin: auto;
+  }
+
+  .textNewestContent{
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .textNewest{
+      width: 40% !important;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+  }
+
+  .btnNewest{
+      width: 100% !important;
+      background-color: #ebd4be !important;
+      color: rgba(0, 0, 0, 0.5) !important;
+      box-shadow: 1px 2px 5px #bbb2a4 !important;
+      text-align: center;
+    
+  }
+
+  .btnNavBar{ 
+    background-color: #ebd4be !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 1px 2px 5px #bbb2a4 !important;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+  .btnNewest a {
+      color: rgba(0, 0, 0, 0.5);
+  }
+
+  .btnNewest a:visited{
+      color: rgba(0, 0, 0, 0.5);
+  }
+  .btnNewest a:hover{
+      color: rgba(0, 0, 0, 0.5);
+  }
+  
+
+  .servicios{
+      width: 75% !important;
+      margin: auto !important;
+      text-align: center !important;
+  }
+  
+  .newImg{
+      width: 75% !important;
+      box-shadow: 3px 4px 10px -3px rgba(0,0,0,0.50)
+  }
+
+  .form-inline{
+      position: relative;
+      right: 5%;
+  }
+  .form-control{
+      width: 40% !important;
+  }
+  .formUno{
+      width: 100% !important;
+  }
+
+  .btnForm{
+      background-color: #ebd4be !important;
+      border: none !important;
+      
+  }
+
+  .footer{
+    margin-top: 100px !important;
+    padding-bottom: 25px;
+    background-color: #F5EADA; 
+    color: rgba(0, 0, 0, 0.7);    
+    text-align: center !important;
+}
+
+.dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    border: none !important;
+    padding-top: 20px !important ;
+    padding-bottom: 20px !important ;
+}
+
+li{
+    list-style: none;
+}
+
+span{
+    color: black;
+    font-weight: bolder;
+}
+
+.categoriasMain{
+text-align: center !important;
+}
+
+.categoriasMain .card-img-top{
+    
+    width: 200px !important;
+  }
+
+.categoriasLiving{
+    width: 80% !important;
+    padding-top: 150px !important;
+    text-align: center;
+    justify-content: center;
+    margin: auto !important;
+}
+
+.cardLiving{
+    width: 375px !important;
+    height: 475px;
+    display: inline-grid;
+    margin: 50px;
+    margin-top: 75px !important;
+}
+
+.colImageArticulo{
+    padding-top: 100px !important;
+}
+.colTextArticulo{
+    margin: auto !important;
+    width: 50% !important;
+    height: 100% !important;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    padding: 50px !important;
+}
+
+.rowArticuloTotal{
+    width: 90%;
+    height: auto !important;
+    margin-top: 125px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-shadow: 0px 2px 15px 5px #bbb2a4 !important;
+    border-radius: 50px;
+}
+
+.prodImage{
+    width: 75% !important;
+    max-width: 100% !important;
+}
+
+.colTextArticulo p{
+    width: 80%;
+    margin-top:  50px;
+    margin-bottom:  100px;
+}
+
+.btnBoxClose{
+    width: 95% !important;
+    height: 25px !important;
+    text-align: end;
+    top: 150px;
+    right: 150px;
+    z-index: 100;
+    position: fixed;
+    ;
+    
+}
+
+.user{
+    position: relative;
+    top: 8px;
+    right: 25px;
+    color: #bbb2a4;
+}
+
+#prodImage{
+    position: relative;
+    bottom: 30px;
+}
+
+.h2NavBar{
+    color:rgba(0, 0, 0, 0.4);
+    font-family: saudagar;  
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+.detalle{
+    margin: auto !important;
+    padding: 0% !important;
+    text-align: center;
+    
+}
+
+.formFooter{
+    width: 100%;
+}

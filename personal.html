@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">        <title>In Desing - Home</title>
+    </head>
+
+    <body>
+        
+        
+        <div class="container-fluid m-0 p-0 ">
+
+            <div class="row navBarInicio m-0 p-0 ">
+
+                <div class="col-6 col1 d-flex justify-content-start align-items-center">
+            
+                   
+                    
+                    
+                    <a href="./index.html" style="text-decoration: none;"><h2 class="h2NavBar ">In-Design</h2> </a>
+                    
+                    </div>
+                
+                <div class="col-6 col4 d-flex justify-content-end align-items-center">
+                
+                    <h5 class="user" id="nameUser"></h5>
+
+                    <a href="./index.html"><button class="btn btnNavBar"> <img class="imgMenu " src="./Media/home.png" width="25px" alt=""> </button></a>
+                    <a href="./personal.html"> <button class="btn btnNavBar"> <img class="imgMenu " src="./Media/user.png" width="25px" alt=""> </button></a>
+                    <div class="dropdown">
+                        <button class="btn btnNavBar" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img class="imgMenu" src="./Media/menu.png" width="25px" alt="">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li id="valueProductUno"><a class="dropdown-item" href="./sillones.html">
+                              
+                            <span >Sillones</span> <br>
+    
+                          </a></li>
+                          <li id="valueProductDos"><a class="dropdown-item" href="./living.html">
+                              
+                            <span >Comedor</span> <br>
+                            
+                          </a></li>
+                          <li id="valueProductTres"><a class="dropdown-item" href="./dormitorio.html">
+                              
+                            <span >Dormitorio</span> <br>
+                            
+                        </a></li>
+                          <li id="valueProductCuatro"><a class="dropdown-item" href="Decoracion.html">
+                              
+                           <span >Decoracion</span> <br>
+                            
+                        </a></li>
+                        </ul>
+                      </div>
+    
+                </div>
+
+            </div>
+
+        <div class="row p-0 rowArticuloTotal" style="padding: 50px !important; width: 60%; text-align: center;">
+        
+            <h2>Datos personales</h2> 
+            
+            <br>
+            <br>
+            <br>
+
+            <h3>Nombre: <span id="nameDatos"></span></h3> <br>
+            <h3>Telefono: <span id="phoneDatos"></span></h3> <br>
+            <h3>Direccion: <span id="addressDatos"></span></h3> <br>
+            <h3>Email: <span id="emailDatos"></span></h3> <br>
+            
+        
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./personal.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
