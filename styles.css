@@ -25,6 +25,9 @@ body{
         max-width: 75% !important;
     }
 
+    #suscripcion{
+    width: 25px !important;
+    }
         }
 
 @media (max-width: 1200px){
@@ -39,6 +42,10 @@ body{
     .textNewestContent{
         margin-top: 50px;
         
+    }
+    
+    #suscripcion{
+    width: 25px !important;
     }
 
     .itemFooter{
