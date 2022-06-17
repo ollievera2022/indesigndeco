@@ -3,6 +3,7 @@
 
 if(localStorage.getItem('Confirmacion') !== 'Correcto'){
     
+    alert('Este proyecto fue diseñado para Desktop, algunas funciones no corren perfectas en Mobile. Gracias')
     alert('Los datos ingresados acontinuacion, pueden ser ficticios. Son para mostrar el correcto funcionalmiento del programa')
 
     alert('Bienvenido! Primero debes registrarte')
