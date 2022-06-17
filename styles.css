@@ -24,11 +24,7 @@ body{
     .prodImage{
         max-width: 75% !important;
     }
-
-    #suscripcion{
-    width: 25px !important;
-    }
-    
+   
     .bannerBox{
         position: relative;
         width: 100%;
@@ -49,6 +45,7 @@ body{
         display: inline-flex;
         justify-content: center;
         align-content: center;
+        font-size: 15px;
     }
     .textNewestContent{
         margin-top: 50px;
